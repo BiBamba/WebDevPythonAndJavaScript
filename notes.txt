@@ -1,0 +1,1 @@
+#run an flask application on windows cmd: $env:FLASK_APP = "application"
