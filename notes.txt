@@ -1,1 +1,13 @@
 #run an flask application on windows cmd: $env:FLASK_APP = "application"
+
+SQL
+------------------
+1- Postgresql
+
+-Installing PostgesSQL
+ # First refresh your server's local package index
+  $ sudo apt update 
+ # Install Postgre package
+  $ sudo apt install postgresql postgresql-contrib
+
+- Using PostgreSQL Roles and Databases
