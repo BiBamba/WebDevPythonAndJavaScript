@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Welcome to my website!!
+{% endblock %}
+
+{% block body %}
+    <p>Create a profile here.</p>
+
+    <form action="url_for('profile')" method="post">
+        <label for="name">Your name</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="email">Your E-mail</label><br>
+        <input type="email" id="email" placeholder="Enter your E-mail"><br>
+        <button>Create</button>
+    </form>
+{% endblock %}

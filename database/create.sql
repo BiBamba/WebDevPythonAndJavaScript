@@ -4,3 +4,12 @@ CREATE TABLE flights (
     destination VARCHAR NOT NULL,
     duration INTEGER NOT NULL
 );
+
+
+
+
+CREATE TABLE passengers (
+    flights_id SERIAL,
+     VARCHAR NOT NULL,
+
+);
